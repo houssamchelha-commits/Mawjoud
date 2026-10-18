@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f4f8fc">
+  <meta name="description" content="Parcourez les annonces Mawjoud Market partout au Maroc."><title>Annonces — Mawjoud Market</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/pages.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/preferences.css"><link rel="stylesheet" href="css/footer-background.css">
+  <script defer src="https://unpkg.com/lucide@latest"></script><script defer src="js/data.js"></script><script defer src="js/main.js"></script><script defer src="js/preferences.js"></script><script defer src="js/annonces.js"></script>
+</head>
+<body data-page="annonces"><header id="site-header"></header>
+<main id="main" class="section-wrap">
+  <section class="browse-hero"><span class="eyebrow">La bonne trouvaille est tout près</span><h1>Explorez les annonces</h1><p>Des objets qui méritent une seconde vie, des lieux où se projeter et des opportunités à saisir partout au Maroc.</p></section>
+  <section class="browse-tools glass-panel" aria-label="Recherche et filtres">
+    <form id="listing-filters">
+      <div class="browse-search-row"><label class="browse-search-box"><i data-lucide="search"></i><span class="sr-only">Rechercher une annonce</span><input id="filter-query" name="q" placeholder="Un vélo, un appartement, une belle trouvaille…"></label><button class="button button-primary" type="submit">Rechercher <i data-lucide="arrow-right"></i></button></div>
+      <div class="filter-row">
+        <label><span class="sr-only">Catégorie</span><select class="filter-control" id="filter-category"><option value="">Toutes les catégories</option></select></label>
+        <label><span class="sr-only">Ville</span><select class="filter-control" id="filter-city"><option value="">Toutes les villes</option></select></label>
+        <div class="price-filter"><label class="sr-only" for="filter-min">Prix minimum en MAD</label><input class="filter-control" id="filter-min" type="number" min="0" placeholder="Min. MAD"><label class="sr-only" for="filter-max">Prix maximum en MAD</label><input class="filter-control" id="filter-max" type="number" min="0" placeholder="Max. MAD"></div>
+        <label><span class="sr-only">Trier les annonces</span><select class="filter-control" id="filter-sort"><option value="newest">Plus récentes</option><option value="price-asc">Prix croissant</option><option value="price-desc">Prix décroissant</option></select></label>
+      </div>
+    </form>
+  </section>
+  <div class="active-filters" id="active-filters" aria-label="Filtres actifs"></div>
+  <div class="results-toolbar"><div><strong id="results-count">0 annonce</strong><span> · trouvez votre prochain coup de cœur</span></div><button class="text-link" id="clear-filters" type="button">Effacer les filtres <i data-lucide="rotate-ccw"></i></button></div>
+  <div class="listing-grid" id="all-listings" aria-live="polite"></div>
+  <div class="load-more-wrap" id="load-more-wrap"><button class="button button-outline" id="load-more" type="button">Afficher plus d'annonces <i data-lucide="arrow-down"></i></button></div>
+</main><footer id="site-footer"></footer></body></html>
