@@ -1,0 +1,2 @@
+.closing-card{background:rgba(255,255,255,.34);border:1px solid rgba(255,255,255,.76);backdrop-filter:blur(18px) saturate(135%);-webkit-backdrop-filter:blur(18px) saturate(135%);box-shadow:0 18px 45px rgba(36,78,120,.12),inset 0 1px rgba(255,255,255,.88)}
+html[data-theme="dark"] .closing-card{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.19);box-shadow:0 18px 45px rgba(0,0,0,.24),inset 0 1px rgba(255,255,255,.16)}

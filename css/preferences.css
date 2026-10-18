@@ -1,0 +1,46 @@
+html[data-theme="dark"]{color-scheme:dark;--bg:#101820;--text:#edf5fb;--muted:#a6b5c1;--glass:rgba(24,37,48,.78);--line:rgba(207,229,242,.12);--shadow:0 20px 55px rgba(0,0,0,.28)}
+html[data-theme="dark"] body{background:#101820;color:var(--text)}
+html[data-theme="dark"] body:before{background:radial-gradient(ellipse at 8% 5%,rgba(46,150,202,.16),transparent 32%),radial-gradient(ellipse at 89% 32%,rgba(49,207,160,.11),transparent 30%),linear-gradient(140deg,#101820,#141e27 52%,#111b20)}
+html[data-theme="dark"] .site-nav,html[data-theme="dark"] .glass-panel,html[data-theme="dark"] .listing-card,html[data-theme="dark"] .step-card,html[data-theme="dark"] .contact-info-card,html[data-theme="dark"] .accordion-item,html[data-theme="dark"] .wizard-card,html[data-theme="dark"] .checkout-main,html[data-theme="dark"] .order-card{background:rgba(25,39,50,.82);border-color:rgba(210,235,248,.12);color:var(--text);box-shadow:0 16px 40px rgba(0,0,0,.2)}
+html[data-theme="dark"] .brand,html[data-theme="dark"] .nav-links a,html[data-theme="dark"] .hero-social strong,html[data-theme="dark"] .listing-title,html[data-theme="dark"] h1,html[data-theme="dark"] h2,html[data-theme="dark"] h3{color:var(--text)}
+html[data-theme="dark"] .nav-links a:hover,html[data-theme="dark"] .nav-links a[aria-current="page"]{color:#64d9c1}
+html[data-theme="dark"] .button-soft,html[data-theme="dark"] .button-outline,html[data-theme="dark"] .category-choice label,html[data-theme="dark"] .filter-control,html[data-theme="dark"] input,html[data-theme="dark"] select,html[data-theme="dark"] textarea{background-color:#1c2b37;color:var(--text);border-color:rgba(210,235,248,.16)}
+html[data-theme="dark"] .site-footer{background:#0c1319;color:var(--text)}
+html[data-theme="dark"] .featured-section,html[data-theme="dark"] .browse-tools{background:transparent}
+html[data-theme="dark"] .search-field input,html[data-theme="dark"] .search-field select{background:transparent;color:var(--text)}
+html[data-theme="dark"] .search-field input::placeholder,html[data-theme="dark"] input::placeholder,html[data-theme="dark"] textarea::placeholder{color:#91a5b5}
+html[dir="rtl"] body{font-family:'Plus Jakarta Sans',Tahoma,Arial,sans-serif}
+html[dir="rtl"] .site-nav{direction:rtl}
+html[dir="rtl"] .nav-actions{direction:rtl}
+html[dir="rtl"] .welcome-dialog{text-align:right}
+html[dir="rtl"] .welcome-brand,html[dir="rtl"] .welcome-start,html[dir="rtl"] .theme-choices button{flex-direction:row-reverse}
+html[dir="rtl"] .welcome-close{left:18px;right:auto}
+.language-control{display:inline-flex;align-items:center}
+.language-control select{width:104px;height:40px;padding:0 9px;border:1px solid rgba(31,75,119,.12);border-radius:12px;background:rgba(255,255,255,.52);color:var(--text);font-size:.78rem;font-weight:700;cursor:pointer}
+.theme-toggle{width:40px;height:40px;display:grid;place-items:center;border:1px solid rgba(31,75,119,.12);border-radius:12px;background:rgba(255,255,255,.52);color:var(--text);cursor:pointer}
+.theme-toggle svg{width:18px;height:18px}
+.welcome-open{overflow:hidden}
+.welcome-backdrop{position:fixed;z-index:1000;inset:0;display:grid;place-items:center;padding:22px;background:rgba(7,15,24,.64);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);animation:welcome-fade .35s ease both}
+.welcome-backdrop[hidden]{display:none}
+.welcome-dialog{position:relative;isolation:isolate;overflow:hidden;width:min(460px,100%);padding:38px;border:1px solid rgba(255,255,255,.25);border-radius:25px;background:linear-gradient(145deg,rgba(34,54,69,.9),rgba(18,29,41,.82));color:#f2f7fb;box-shadow:0 35px 100px rgba(0,0,0,.45),inset 0 1px rgba(255,255,255,.24);backdrop-filter:blur(32px) saturate(145%);-webkit-backdrop-filter:blur(32px) saturate(145%);animation:welcome-rise .45s cubic-bezier(.2,.75,.25,1) both}
+.welcome-dialog:before{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.13),transparent 34%,rgba(255,255,255,.025) 68%,rgba(255,255,255,.08));pointer-events:none}
+.welcome-orb{position:absolute;z-index:-2;width:250px;height:250px;top:-140px;right:-80px;border-radius:50%;background:radial-gradient(circle,rgba(40,219,191,.34),rgba(36,116,239,.14) 52%,transparent 72%);filter:blur(10px)}
+.welcome-close{position:absolute;top:16px;right:16px;width:35px;height:35px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.16);border-radius:50%;background:rgba(255,255,255,.07);color:#fff;cursor:pointer}
+.welcome-close svg{width:17px}
+.welcome-brand{display:flex;align-items:center;gap:10px;margin-bottom:30px;font-size:1.05rem;font-weight:800}
+.welcome-brand .brand-mark{width:34px;height:34px}
+.welcome-brand>span:last-child>span{color:#5fe0c0}
+.welcome-kicker{color:#81e3d0;font-size:.67rem;font-weight:800;letter-spacing:.17em}
+.welcome-dialog h2{margin:9px 0 10px;color:#fff;font-size:1.75rem;letter-spacing:0}
+.welcome-dialog>p{margin:0 0 23px;color:#b8c7d1;font-size:.91rem;line-height:1.7}
+.welcome-label{display:block;margin-top:17px;color:#dce8ef;font-size:.77rem;font-weight:700}
+.welcome-label>select{display:block;width:100%;height:45px;margin-top:7px;padding:0 12px;border:1px solid rgba(255,255,255,.17);border-radius:12px;background:rgba(5,14,23,.28);color:#fff}
+.welcome-label>select option{background:#172530;color:#fff}
+.theme-choices{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:7px}
+.theme-choices button{height:44px;display:flex;align-items:center;justify-content:center;gap:9px;border:1px solid rgba(255,255,255,.16);border-radius:12px;background:rgba(5,14,23,.22);color:#dce8ef;font-size:.82rem;font-weight:700;cursor:pointer}
+.theme-choices button.is-selected{border-color:#62dec4;background:rgba(52,202,175,.14);box-shadow:inset 0 0 0 1px rgba(98,222,196,.18)}
+.theme-choices svg{width:17px;height:17px}
+.welcome-start{width:100%;margin-top:24px;background:linear-gradient(110deg,#24bba9,#3478f6);box-shadow:0 10px 27px rgba(36,187,169,.23)}
+@keyframes welcome-fade{from{opacity:0}to{opacity:1}}
+@keyframes welcome-rise{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:760px){.nav-actions{gap:6px}.language-control select{width:82px;height:38px;padding:0 6px;font-size:.7rem}.theme-toggle{width:36px;height:36px}.welcome-dialog{padding:31px 24px 25px;border-radius:22px}.welcome-dialog h2{font-size:1.55rem}.nav-actions .nav-post{display:none}}

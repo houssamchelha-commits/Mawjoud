@@ -1,0 +1,6 @@
+.site-footer{background-color:#071431;background-image:linear-gradient(rgba(5,12,40,.38),rgba(5,12,40,.78)),url("../grY7OKhaOIFZ8BmOeTfPlEmZs26jx6WGfaExukU_Z-wOw4oQPV4eY_bUicssN8NhJ_N__vt6-XWtKuSLdax2BYyy1pQD63c620SnV_zheXvyiRjaXSQ9eNXuZfgRU86XZEbRFiIZ9PfLFMeP_mnkX2b15NJsUs0KRKFZkFD5LWAZ1C6BPj__530x7FUTxNzG.jpg");background-position:center 55%;background-size:cover;background-repeat:no-repeat;color:#edf4ff}
+.site-footer .brand,.site-footer .footer-column strong{color:#fff}
+.site-footer .footer-brand p,.site-footer .footer-column a,.site-footer .footer-bottom{color:rgba(237,244,255,.8)}
+.site-footer .footer-column a:hover{color:#83ebca}
+.site-footer .footer-bottom{border-top-color:rgba(237,244,255,.2)}
+html[data-theme="dark"] .site-footer{background-color:#071431;background-image:linear-gradient(rgba(3,8,30,.54),rgba(3,8,30,.84)),url("../grY7OKhaOIFZ8BmOeTfPlEmZs26jx6WGfaExukU_Z-wOw4oQPV4eY_bUicssN8NhJ_N__vt6-XWtKuSLdax2BYyy1pQD63c620SnV_zheXvyiRjaXSQ9eNXuZfgRU86XZEbRFiIZ9PfLFMeP_mnkX2b15NJsUs0KRKFZkFD5LWAZ1C6BPj__530x7FUTxNzG.jpg")}
