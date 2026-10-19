@@ -3,6 +3,10 @@
   if (!form) return;
   const status = document.getElementById('contact-status');
   const fields = [...form.querySelectorAll('.form-field')];
+  if (new URLSearchParams(window.location.search).has('annonce')) {
+    form.querySelector('[name="subject"]').value = 'Une question sur une annonce';
+    form.querySelector('[name="message"]').value = 'Bonjour, j’ai une question au sujet de cette annonce.';
+  }
   function validate(field) {
     const input = field.querySelector('input,select,textarea');
     const valid = input.checkValidity() && (input.type !== 'text' || input.value.trim().length >= 2) && (input.name !== 'message' || input.value.trim().length >= 10);
